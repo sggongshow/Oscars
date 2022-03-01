@@ -10,7 +10,7 @@
 // ==/UserScript==
 //========Get Path============
 
-// UPDATED Jan 17 2022
+// NOTE TO SELF: MAIN GITHUB FOLDER MODIFICATIONS. NO REFERENCE TO SUBFOLDERS OR BRANCES
 
 //===============================
 //var mylink = 'eform/efmshowform_data.jsp?fid='+formID
