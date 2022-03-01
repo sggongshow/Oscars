@@ -7,7 +7,7 @@
 // @require http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js
 // @updateURL https://github.com/sggongshow/Oscars/raw/main/CumulativeLab3Mods.user.js
 // @downloadURL https://github.com/sggongshow/Oscars/raw/main/CumulativeLab3Mods.user.js
-// @version 21.02.28.5
+// @version 22.02.28.5
 // ==/UserScript==
 
 //https://doctors-office-surrey.kai-oscar.com/oscar///lab/CumulativeLabValues3.jsp?demographic_no=1507&toDate=&fromDate=&showAllReport=true
