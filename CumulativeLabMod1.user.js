@@ -3,8 +3,10 @@
 // @namespace   GongOscar
 // @include     *lab/CumulativeLabValues.jsp*
 // @require http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js
+// @updateURL https://github.com/sggongshow/Oscars/raw/main/CumulativeLabMod1.user.js
+// @downloadURL https://github.com/sggongshow/Oscars/raw/main/CumulativeLabMod1.user.js
+// @version 21.02.28.1
 // @grant       none
-// @version     0.1
 // ==/UserScript==
 //========Get Path============
 
