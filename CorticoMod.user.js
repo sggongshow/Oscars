@@ -4,7 +4,9 @@
 // @description Various navigation buttons for echart screen.  Set your own specific fid (form number) or Measurement groupName
 // @include     */casemgmt/forward.jsp?action=view&demographic*
 // @require http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js
-// @version 15.2
+// @updateURL https://github.com/sggongshow/Oscars/raw/main/CorticoMod.user.js
+// @downloadURL https://github.com/sggongshow/Oscars/raw/main/CorticoMod.user.js
+// @version 21.02.28.5
 // @grant       none
 // ==/UserScript==
 
