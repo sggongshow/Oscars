@@ -6,7 +6,7 @@
 // @require http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js
 // @updateURL https://github.com/sggongshow/Oscars/raw/main/EChartButtons.user.js
 // @downloadURL https://github.com/sggongshow/Oscars/raw/main/EChartButtons.user.js
-// @version 21.02.28
+// @version 21.02.28.2
 // @grant       none
 // ==/UserScript==
 //window.moveTo(300, 100)
@@ -86,7 +86,7 @@ function showAlert2()
 }
 var input3 = document.createElement('input');
 input3.type = 'button';
-input3.value = 'Blank';
+input3.value = 'OSA';
 input3.onclick = showAlert3;
 input3.setAttribute('style', 'width:60px;font-size:16px;z-index:1;position:fixed;bottom:120px;right:0px; background-color: #ffff00;');
 document.body.appendChild(input3);
