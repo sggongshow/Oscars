@@ -4,7 +4,9 @@
 // @description Constant EForm Submit and Print button locations
 // @include     *appointmentcontrol.jsp*
 // @require http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js
-// @version 15.2
+// @updateURL https://github.com/sggongshow/Oscars/raw/main/EditApptButtons.user.js
+// @downloadURL https://github.com/sggongshow/Oscars/raw/main/EditApptButtons.user.js
+// @version 22.02.28.5
 // ==/UserScript==
 
 
