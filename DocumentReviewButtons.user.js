@@ -8,7 +8,7 @@
 // @require http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js
 // @updateURL https://github.com/sggongshow/Oscar/raw/main/DocumentReviewButtons.user.js
 // @downloadURL https://github.com/sggongshow/Oscar/raw/main/DocumentReviewButtons.user.js
-// @version 21.02.28.5
+// @version 22.02.28.5
 // ==/UserScript==
 //window.moveTo(300, 100)
 
