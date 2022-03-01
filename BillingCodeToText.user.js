@@ -9,7 +9,9 @@
 // @include     *SaveBilling.do?*
 // @include     *formwcb.do?*
 // @require http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js
-// @version 15.2
+// @updateURL https://github.com/sggongshow/Oscars/raw/main/BillingCodeToText.user.js
+// @downloadURL https://github.com/sggongshow/Oscars/raw/main/BillingCodeToText.user.js
+// @version 21.02.28.5
 // ==/UserScript==
 
 
