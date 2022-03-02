@@ -6,7 +6,7 @@
 // @require http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js
 // @updateURL https://github.com/sggongshow/Oscars/raw/main/EChartButtons.user.js
 // @downloadURL https://github.com/sggongshow/Oscars/raw/main/EChartButtons.user.js
-// @version 22.02.28.5
+// @version 22.03.01.0
 // @grant       none
 // ==/UserScript==
 //window.moveTo(300, 100)
@@ -377,7 +377,7 @@ function showAlert50()
   var res = myParam.indexOf('&')
   var demo_no = myParam.substring(0, res) //alert (demo_no)
   // INSERT YOU OWN form ID (fid=??) here
-  var formPath = vPath + '/eform/efmformadd_data.jsp?fid=936&demographic_no=' + demo_no + '&appointment=' + ApptNum//window.open(formPath)
+  var formPath = vPath + '/eform/efmformadd_data.jsp?fid=1193&demographic_no=' + demo_no + '&appointment=' + ApptNum//window.open(formPath)
   window.open(formPath, 'Popup_Window12', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=1000,height=800,left = 312,top = 234');
 }
 
