@@ -58,12 +58,13 @@ document.addEventListener('keydown', function(theEvent) {
 			break;
       
     case theAltKey && theKey==='s': //save, sign and bill
- 			$('#save > span > input:nth-child(6)').click()
+ 			var signsave = $('input[title="Sign Save & Bill"]')[0]
+     			signsave.click())
 			break;
       
 		
     case theAltKey && theKey==='t': //new Tickler
- 			$('#tickler > div:nth-child(2) > h3:nth-child(1) > a:nth-child(1)').click()
+ 			//$('#tickler > div:nth-child(2) > h3:nth-child(1) > a:nth-child(1)').click()
 			break;
        
      
