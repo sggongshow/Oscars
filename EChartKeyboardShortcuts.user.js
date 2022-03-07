@@ -59,7 +59,7 @@ document.addEventListener('keydown', function(theEvent) {
       
     case theAltKey && theKey==='s': //save, sign and bill
  			var signsave = $('input[title="Sign Save & Bill"]')[0]
-     			signsave.click())
+     			signsave.click()
 			break;
       
 		
