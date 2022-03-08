@@ -7,7 +7,7 @@
 // @require http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js
 // @updateURL https://github.com/sggongshow/Oscars/raw/main/ticklerEfficiency.user.js
 // @downloadURL https://github.com/sggongshow/Oscars/raw/main/ticklerEfficiency.user.js
-// @version 22.03.07.0
+// @version 22.03.07.1
 // ==/UserScript==
 
 
