@@ -7,7 +7,7 @@
 // @require http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js
 // @updateURL https://github.com/sggongshow/Oscars/raw/main/ticklerEfficiency.user.js
 // @downloadURL https://github.com/sggongshow/Oscars/raw/main/ticklerEfficiency.user.js
-// @version 22.02.28.5
+// @version 22.03.07.0
 // ==/UserScript==
 
 
@@ -77,8 +77,8 @@ function meButtonFunc(){
   taskAssign.value = myIDNum
 }
 function HiButtonFunc(){
-  //var priorityAssign = $('select[name=priority]')[0]
-  //priorityAssign.value = 'High'
-  var taskAssign = $('select[name=task_assigned_to]')[0]
-  taskAssign.value = 40
+  var priorityAssign = $('select[name=priority]')[0]
+  priorityAssign.value = 'High'
+  //var taskAssign = $('select[name=task_assigned_to]')[0]
+  //taskAssign.value = 40
 }
