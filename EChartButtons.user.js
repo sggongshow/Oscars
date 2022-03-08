@@ -6,7 +6,7 @@
 // @require http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js
 // @updateURL https://github.com/sggongshow/Oscars/raw/main/EChartButtons.user.js
 // @downloadURL https://github.com/sggongshow/Oscars/raw/main/EChartButtons.user.js
-// @version 22.03.01.0
+// @version 22.03.07.0
 // @grant       none
 // ==/UserScript==
 //window.moveTo(300, 100)
@@ -92,9 +92,15 @@ input3.setAttribute('style', 'width:60px;font-size:16px;z-index:1;position:fixed
 document.body.appendChild(input3);
 function showAlert3()
 {
-  //$('#Rx > div:nth-child(3) > h3:nth-child(1) > a:nth-child(1)').click()
-  //var formPath = vPath + '/lab/CumulativeLabValues3.jsp?demographic_no=' + demo_no + '&appointment=' + ApptNum
-  window.open(formPath,'Popup_Window1', 'width=800,height=800,left =0,top = 0')
+  var myParam = location.search.split('demographicNo=') [1] //alert(myParam)
+  var res = myParam.indexOf('&')
+  var demo_no = myParam.substring(0, res) //alert (demo_no)
+  var formPath = vPath + '/eform/efmformadd_data.jsp?fid=1173&demographic_no=' + demo_no + '&appointment=' + ApptNum// INSERT YOU OWN form ID (fid=??) here
+  var formPath2 = vPath + '/eform/efmformadd_data.jsp?fid=1088&demographic_no=' + demo_no + '&appointment=' + ApptNum// INSERT YOU OWN form ID (fid=??) here
+
+  var popup1 = window.open(formPath,'Popup_Window5a', 'width=800,height=800,left = 0,top = 0')
+  var popup2 = window.open(formPath2,'Popup_Window5b', 'width=800,height=800,left = 0,top = 0')
+
 }
 var input4 = document.createElement('input');
 input4.type = 'button';
