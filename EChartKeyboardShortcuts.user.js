@@ -6,7 +6,7 @@
 // @require http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js
 // @updateURL https://github.com/sggongshow/Oscars/raw/main/EChartKeyboardShortcuts.user.js
 // @downloadURL https://github.com/sggongshow/Oscars/raw/main/EChartKeyboardShortcuts.user.js
-// @version 22.03.07.1
+// @version 22.03.07.2
 // ==/UserScript==
 
 function setCookie(cname, cvalue, exdays, cpath)
@@ -69,11 +69,11 @@ document.addEventListener('keydown', function(theEvent) {
        
      
     case theAltKey && theKey==='e': //Expand left side
- 			$('#imgeforms5').click()
-  		$('#imgmeasurements5').click()
+ 		//$('#imgeforms5').click()
+  		//$('#imgmeasurements5').click()
   		$('#imgdocs5').click()
   		$('#imglabs5').click()
-  		$('#imgpreventions5').click()
+  		//$('#imgpreventions5').click()
 			break;
       
     case theAltKey && theKey==='f': //Medical Hx
