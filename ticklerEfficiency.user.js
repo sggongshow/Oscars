@@ -17,6 +17,9 @@ var myIDNum = '37250'
 
 window.addEventListener('load', function() {
   
+
+  $('a[title="Show/Hide Date Quickpick Options"]')[0].click()
+	
   var MeBut = document.createElement('input');
   MeBut.type = 'button';
   MeBut.id = 'meButton'
