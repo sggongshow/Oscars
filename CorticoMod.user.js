@@ -6,15 +6,16 @@
 // @require http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js
 // @updateURL https://github.com/sggongshow/Oscars/raw/main/CorticoMod.user.js
 // @downloadURL https://github.com/sggongshow/Oscars/raw/main/CorticoMod.user.js
-// @version 22.02.28.5
+// @version 22.04.11.0
 // @grant       none
 // ==/UserScript==
 
 function main(){
 	console.log("CHECK CORTICO")
-  var checkCort = $('[class*=tw-bg-cortico-blue][class*=tw-cursor-pointer][class*=tw-relative]')
+  var checkCort = $('[class*=tw-bg-indigo-60][class*=tw-transition-colors][class*=hover:tw-bg-blue-1000]')
   if (checkCort.length>0){
-    console.log("test")
+    //console.log(checkCort)
+    //console.log("checkCort")
    	main2(checkCort) 
   }
   
