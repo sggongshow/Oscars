@@ -6,7 +6,7 @@
 // @require http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js
 // @updateURL https://github.com/sggongshow/Oscars/raw/main/EditApptButtons.user.js
 // @downloadURL https://github.com/sggongshow/Oscars/raw/main/EditApptButtons.user.js
-// @version 22.02.28.5
+// @version 22.04.11.0
 // ==/UserScript==
 
 
@@ -83,15 +83,15 @@ document.addEventListener('keydown', function(theEvent) {
 
 function DoneButFunc(){
   var statusSelector = $('select[name="status"]')[0]
-  statusSelector.value = findStatus("DONE")
+  statusSelector.value = findStatus("Done")
 }
 function NoShowButFunc(){
   var statusSelector = $('select[name="status"]')[0]
-  statusSelector.value = findStatus("NO SHOW")
+  statusSelector.value = findStatus("No show")
 }
 function BilledButFunc(){
   var statusSelector = $('select[name="status"]')[0]
-  statusSelector.value = findStatus("BILLED")
+  statusSelector.value = findStatus("Billed")
 }
 function ConfirmButFunc(){
   var statusSelector = $('select[name="status"]')[0]
